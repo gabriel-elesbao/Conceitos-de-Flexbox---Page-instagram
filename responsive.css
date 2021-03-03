@@ -1,0 +1,78 @@
+
+/*Media queries*/
+
+@media(max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%;
+
+    }
+
+    
+}
+
+@media(max-width: 700px){
+
+    body{
+        background-color: #ffffff;
+    }
+
+    .instagram-logo{
+        height: 5rem;
+        margin-top: -2rem;
+        margin-bottom: 4rem;
+        
+        
+    }
+
+    .profile-photo img{
+        height: 9rem;
+
+    }
+
+    .instagram-login{
+        margin-top: 2rem;
+    }
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
+
+    .downloads{
+        padding-top: 3rem;
+        
+       max-width: 20rem;
+       /* margin-top: 4rem; */
+       flex-direction: flex;
+       align-items: center;
+       justify-content: space-evenly;
+
+        
+    }
+
+    .app-download:nth-child(1){
+        margin-top: -2rem;
+        padding-right: 13rem;
+        height: 70px;
+        background-size: cover;
+        background-image: url('img/app-store-png-logo.png');
+    }
+    
+    .app-download:nth-child(2){
+        height: 80px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('img/play-store-logo.png');
+    }
+}
