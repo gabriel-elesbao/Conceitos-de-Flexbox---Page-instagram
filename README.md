@@ -30,10 +30,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ````bash
 # Clonar o repositório
-$ git clone https://github.com/gabriel-elesbao clone-netflix-DIO.git
+$ git clone https://github.com/gabriel-elesbao/Conceitos-de-Flexbox---Page-instagram
 
 # Entrar no diretório 
-$ cd clone-netflix-DIO
+$ cd ConceitosFlexbox
 
 ````
 
